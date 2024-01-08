@@ -1,9 +1,9 @@
+import About from '../components/Home/About';
+
 function Home() {
   return (
-    <div>
-      <h1>Lucas Portfolio</h1>
-      <p>loremsdjdnsjdnsjdnjsdnjs</p>
-      <p>uashduahuda</p>
+    <div className="bg-gray-100">
+      <About />
     </div>
   );
 }
