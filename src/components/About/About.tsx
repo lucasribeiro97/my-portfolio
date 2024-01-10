@@ -3,7 +3,7 @@ function About() {
     <div className="about-container">
       <div className="w-full flex flex-col">
         <div>
-          <h1 className="text-2xl font-semibold py-1">Lucas Ribeiro Cunha</h1>
+          <h1 className="text-4xl font-semibold py-1">Lucas Ribeiro Cunha</h1>
           <h2 className="text-xl font-normal py-1">Desenvolvedor Full Stack</h2>
           <p className="text-md font-light py-1 pb-3">
             Atualmente estou em busca de uma oportunidade no mundo do desenvolvimento web,
@@ -25,7 +25,7 @@ function About() {
       </div>
       <div className="w-80 py-4">
         <img
-          src="src/images/profile-picture.jpeg"
+          src="profile-picture.jpeg"
           alt="imagem de perfil"
         />
       </div>

@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 @layer components {
+
+  /* estilos usados no componente About.tsx */
   .about-container {
     @apply flex p-10 w-3/4 mx-auto justify-center
   }
@@ -28,5 +30,26 @@
       hover:bg-gray-700
       p-2
       rounded-lg
+  }
+
+  /* estilização do componente Header.tsx */
+  .header-container {
+    @apply
+      flex
+      flex-col
+      items-center
+      h-screen
+      w-96
+      bg-brand
+      pt-5
+  }
+
+  .profile-img {
+    @apply
+      mb-3
+      rounded-full
+      mx-auto
+      w-56
+      pt-5
   }
 }
