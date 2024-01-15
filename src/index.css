@@ -52,4 +52,27 @@
       w-56
       pt-5
   }
+
+  .profile-icons {
+    @apply
+      flex
+      flex-col
+      mt-10
+      text-base
+      font-semibold
+      text-white
+      space-y-3
+  }
+
+  .icons {
+    @apply
+      flex
+      flex-row
+      items-center
+  }
+
+  .icons img {
+    @apply
+      mr-6
+  }
 }
