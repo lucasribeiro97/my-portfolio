@@ -56,6 +56,12 @@ function Header() {
             <span>Currículo</span>
           </NavLink>
         </li>
+        <li>
+          <NavLink to="#" className="icons">
+            <img src="icons/contato.svg" alt="ícone de contato" />
+            <span>Contato</span>
+          </NavLink>
+        </li>
       </ul>
     </header>
   );
