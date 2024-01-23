@@ -11,7 +11,7 @@ function SkillsList() {
         </p>
       </div>
       <ul className="flex">
-        <li className="space-y-1">
+        <li>
           <img src="icons-technologies/react.svg" alt="ícone do React" />
           <h2 className="text-xl font-semibold">React</h2>
           <p>
@@ -26,6 +26,14 @@ function SkillsList() {
           <p>
             Express, Sequelize, Knex, JWT, testes automatizados,
             RESTful APIs, GraphQL, WebSockets e Socket.io.
+          </p>
+        </li>
+        <li>
+          <img src="icons-technologies/tailwind-css.svg" alt="ícone do Tailwind" />
+          <h2 className="text-xl font-semibold">Tailwind CSS</h2>
+          <p>
+            Utilização de classes, customização de temas e componentes,
+            responsividade e construção de layouts.
           </p>
         </li>
       </ul>
