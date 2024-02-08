@@ -75,4 +75,13 @@
     @apply
       mr-6
   }
+
+  /* estilização do componente SkillsList.tsx */
+  .skills-items {
+    @apply
+      flex
+      flex-col
+      items-start
+      justify-start
+  }
 }
