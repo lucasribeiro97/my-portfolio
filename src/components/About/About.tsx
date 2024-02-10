@@ -1,4 +1,12 @@
+import { useNavigate } from 'react-router-dom';
+
 function About() {
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate('/portfolio');
+  };
+
   return (
     <div className="about-container">
       <div className="w-full flex flex-col">
@@ -15,7 +23,7 @@ function About() {
           </p>
         </div>
         <div className="mt-7">
-          <button className="btn-blue">
+          <button className="btn-blue" onClick={ handleNavigate }>
             Ver Portfólio
           </button>
           <button className="btn-gray">

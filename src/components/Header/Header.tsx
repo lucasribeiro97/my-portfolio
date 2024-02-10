@@ -45,7 +45,7 @@ function Header() {
           </NavLink>
         </li>
         <li>
-          <NavLink to="#" className="icons">
+          <NavLink to="/portfolio" className="icons">
             <img src="icons/portfolio.svg" alt="ícone do portfólio" />
             <span>Portfólio</span>
           </NavLink>
