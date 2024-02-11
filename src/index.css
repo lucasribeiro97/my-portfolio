@@ -85,4 +85,82 @@
       justify-start
       space-y-1
   }
+
+  /* estilizacao da pagina de portfolio */
+  .header-portfolio {
+    @apply
+      flex
+      flex-col
+      w-full
+      mx-auto
+      py-14
+      space-y-1
+      items-center
+      h-44
+      bg-gray-100
+  }
+
+  .stacks-list {
+    @apply
+      flex
+      flex-row
+      items-center
+      justify-center
+      space-x-3
+      py-10
+  }
+
+  .stacks-item {
+    @apply
+      font-medium
+      text-base
+      text-gray-600
+      hover:text-black
+  }
+
+  .project-list {
+    @apply
+      grid
+      grid-cols-2
+      justify-items-center
+  }
+
+  .project-card {
+    @apply
+      flex
+      flex-row
+      w-5/6
+      h-48
+      m-2.5
+      bg-blue-800
+  }
+
+  .project-card img {
+    @apply
+      object-cover
+      w-full
+      h-full;
+  }
+
+  .project-card div {
+    @apply
+      flex
+      flex-col
+      p-5
+      bg-gray-100
+  }
+  
+  .project-title {
+    @apply
+      font-semibold
+      text-lg
+  }
+
+  .project-description {
+    @apply
+      text-sm
+      mt-2
+      font-light
+  }
+
 }
