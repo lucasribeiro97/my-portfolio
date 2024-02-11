@@ -122,6 +122,9 @@
     @apply
       grid
       grid-cols-2
+      gap-5
+      ml-36
+      mr-36
       justify-items-center
   }
 
@@ -129,17 +132,16 @@
     @apply
       flex
       flex-row
-      w-5/6
+      w-full
       h-48
-      m-2.5
       bg-blue-800
   }
 
   .project-card img {
     @apply
       object-cover
-      w-full
-      h-full;
+      h-full
+      max-w-64
   }
 
   .project-card div {
@@ -154,13 +156,14 @@
     @apply
       font-semibold
       text-lg
+      underline
   }
 
   .project-description {
     @apply
       text-sm
       mt-2
-      font-light
+      font-normal
   }
 
 }
