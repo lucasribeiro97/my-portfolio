@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @layer components {
+  #root {
+    @apply
+      h-auto
+      w-auto
+  }
 
   /* estilos usados no componente About.tsx */
   .about-container {
@@ -141,7 +146,8 @@
     @apply
       object-cover
       h-full
-      max-w-64
+      max-w-72
+      min-w-72
   }
 
   .project-card div {

@@ -82,6 +82,51 @@ function Portfolio() {
             </p>
           </div>
         </Link>
+        <Link
+          to="git@github.com:tryber/sd-033-a-project-trybewallet-ts.git"
+          className="project-card"
+          target="_blanked"
+        >
+          <img src="images/trybewallet.jpg" alt="Tabela de números" />
+          <div>
+            <h2 className="project-title">TrybeWallet</h2>
+            <p className="project-description">
+              O TrybeWallet é um projeto de um gerenciador de despesas
+              com conversão de moedas.O usuário pode adicionar, remover
+              e visualizar suas despesas salvas.
+            </p>
+          </div>
+        </Link>
+        <Link
+          to="https://github.com/lucasribeiro97/starwars-planets-search"
+          className="project-card"
+          target="_blanked"
+        >
+          <img src="images/starwars.jpg" alt="Imagem de planeta" />
+          <div>
+            <h2 className="project-title">StarWars Planets Search</h2>
+            <p className="project-description">
+              O projeto StarWars Planets Search é um site que consome a API do
+              Star Wars e permite ao usuário buscar planetas e ver informações
+              sobre eles usando Context API e Hooks.
+            </p>
+          </div>
+        </Link>
+        <Link
+          to="https://github.com/alinelimasl/RecipesApp"
+          className="project-card"
+          target="_blanked"
+        >
+          <img src="images/recipes.jpg" alt="Imagem de comida" />
+          <div>
+            <h2 className="project-title">Recipes App</h2>
+            <p className="project-description">
+              O projeto Recipes App é um site de receitas que consome a API de
+              receitas e permite ao usuário buscar receitas e ver informações
+              sobre elas. O layout tem como foco dispositivos móveis.
+            </p>
+          </div>
+        </Link>
       </ul>
     </div>
   );
